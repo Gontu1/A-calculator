@@ -31,6 +31,7 @@ void push(arrayStack_t* stack,int value){
     }
 //as we get here ,we know that the stack is big enough
 stack -> stackArray[stack->top++]=value;
+}
 //initStack:  sets up a stack with an initial size
 //Parameters:  stack: a pointer to a stack structure
 //             initialSize: the initial size for the stack
