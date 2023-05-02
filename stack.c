@@ -36,7 +36,7 @@ stack -> stackArray[stack->top++]=value;
 //             initialSize: the initial size for the stack
 //Returns:  None
 //Side Effect: Allocates memory for the stack which must be freed by the caller.
-#define INTIAL_STACK_SIZE = 5;
+#define INITIAL_STACK_SIZE  5;
 void initStack(arrayStack_t* stack, int initialSize){
     stack->arraySize = initialSize;
     stack -> stackArray =(int*)malloc(sizeof(int)*initialSize);
