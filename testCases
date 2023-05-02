@@ -1,0 +1,26 @@
+# Valid inputs
+10
+20
++
+
+3
+4
+*
+
+100
+10
+/
+
+5
+2
+-
+
+q
+
+# Invalid inputs
++
+abc
+0
+
+1 2
+
